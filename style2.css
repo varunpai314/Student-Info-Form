@@ -70,7 +70,7 @@ input:focus{
     outline:1px solid black;
 }
     
-button[type=submit] {
+button{
     width: 100%;
     font-size: medium;
     background-color: rgb(37, 37, 135);
@@ -114,4 +114,8 @@ button[type=submit] {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  #success{
+    display: none;
   }
