@@ -11,23 +11,40 @@
     <form action="">
         <h1>Student Details</h1>
         <section>
-            <label for="usn-applno">USN</label>
-            <input type="text" name="usn-applno" id="usn-applno">
+            <label for="usn">USN</label>
+            <input type="text" name="usn" id="usn" placeholder="NM2xCSxxx">
         </section>
         <section>
             <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" placeholder="Jane Doe">
         </section>
         <section>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="nm2xcsxxx@nmamit.in">
         </section>
         <section>
             <label for="semester">Semester</label>
-            <input type="number" name="semester" id="semester">
+            <div class="dropdown">
+                <input class="dropbtn" type="number" name="semester" id="semester" placeholder="3">
+                <div class="dropdown-content">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>7</p>
+                    <p>8</p>
+                </div>
+            </div>
             <label for="section">Section</label>
             <input type="text" name="section" id="section">
-
+        </section>
+        <section>
+            <label for="branch">Branch</label>
+            <input type="text" name="branch" id="branch">
+        </section>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
