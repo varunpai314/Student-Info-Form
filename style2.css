@@ -30,6 +30,11 @@ header{
 
 }
 
+@keyframes sliding-text {
+    
+}
+
+
 form {
     border-radius: 5px;
     background-color: rgb(247, 247, 247);

@@ -50,8 +50,9 @@ input:focus{
     outline:1px solid black;
 }
     
-button[type=submit] {
+button {
     width: 100%;
+    font-size: medium;
     background-color: rgb(37, 37, 135);
     color: white;
     padding: 14px 20px;
