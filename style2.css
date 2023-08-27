@@ -30,11 +30,6 @@ header{
 
 }
 
-@keyframes sliding-text {
-    
-}
-
-
 form {
     border-radius: 5px;
     background-color: rgb(247, 247, 247);
@@ -50,6 +45,10 @@ section{
     display: flex;
     flex-direction: row;
     gap: 8px;
+}
+#topsec{
+  justify-content: space-between;
+  font-size: large;
 }
 
 section label{
@@ -114,8 +113,4 @@ button{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
-  }
-
-  #success{
-    display: none;
   }

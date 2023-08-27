@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <header>You are here because you wanted to register to the portal.</header>
-    <form action="">
-        <h1>Student Details</h1>
+    <header id="regInfo">You are here because you wanted to register on the portal.</header>
+    <form action="/success.html">
+        <section id="topsec">
+            <h1>Student Details</h1>
+            <a href="/index.html"><img src="imgs/back.png" alt="" style="width: 40px;"></a>
+        </section>
         <section>
             <label for="usn">USN</label>
             <input type="text" name="usn" id="usn" placeholder="NM2xCSxxx">
@@ -46,11 +49,5 @@
         </section>
         <button>Submit</button>
     </form>
-    <form action="" id="success">
-        <img src="imgs/success.jpg" alt="">
-        <h6>Student registered to the portal successfully!</h6>
-    </form>
-
-
 </body>
 </html>
